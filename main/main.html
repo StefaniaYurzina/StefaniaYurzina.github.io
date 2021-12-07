@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="icon" href="unicorn.png" type="image/png">
+        <link rel="stylesheet" href="main_style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Портфолио</title>
+    </head>
+    <body class="main">
+        <header class="header">
+            <div class="main_navigation">
+                <input type="checkbox" id="checkbox">
+                <ul>
+                    <li><a href="#hi">Приветствие</a></li>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#projects">Проекты</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </div>
+            <label for="checkbox" class="menu_icon">
+                <img src="menu.png" alt="menu" class="icon">
+            </label>
+        </header>
+
+
+        <div class="div1" id="up">
+            <h1>Portfolio</h1>
+        </div>
+
+        <div class="div2" id="hi">
+            <div class="text">
+                <h2>Здравствуй!</h2>
+                <p>Меня зовут Стефания. Рада видеть тебя в своем маленьком мире. Здесь ты найдешь все мои работы, зарисовки, что-то сделано для клиента, а что-то - для души. Надеюсь, у меня получится раскрыться и мы с тобой станем партнерами :)</p>
+                <br>
+                <p>Хочешь узнать обо мне побольше?</p>
+                <img src="main_img4.png">
+            </div>
+            <img class="face" src="main_img3.png">
+        </div>
+
+        <div class="div3" id="about">
+            <img class="tablet" src="./main_img14.png" alt="">
+            <div class="about">
+                <div class="div3_1">
+                    <img class="desctop" src="main_img5.png" width="310px">
+                    <h2>Обо мне</h2>
+                    <ul>
+                        <li>Живу в Москве</li>
+                        <li>Люблю фотографировать</li>
+                        <li>Мечтаю о минипиге ^^</li>
+                    </ul>
+                </div>
+                <div class="div3_2">
+                    <h2>Опыт</h2>
+                    <ul>
+                        <li>Степень бакалавра по направлению “Программная инженерия, Разработка и дизайн компьютерных игр и мультимедийных приложений”, РТУ МИРЭА</li>
+                        <li>ux/ui дизайнер в проекте по разработке mrp-системы (феврать 2021 - май 2021)</li>
+                    </ul>
+                    <h2>Навыки</h2>
+                    <ul>
+                        <li>Figma</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Lightroom</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="div4" id="projects">
+            <svg>
+                <line x1="100" y1="0" x2="2400" y2="0" stroke-width="4" stroke="#F0C2E8">
+            </svg>
+            <div class="div4_1" onclick="kamch()">
+                <img src="main_img10.png" class="hover">
+                <img src="main_img6.png" class="default">
+                <div class="text">
+                    <h2>Камчатка</h2>
+                    <p>октябрь 2020</p>
+                </div>
+            </div>
+            <svg>
+                <line x1="100" y1="0" x2="2400" y2="0" stroke-width="4" stroke="#F0C2E8">
+            </svg>
+            <div class="div4_2"  onclick="ice()">
+                <img src="main_img11.png" class="hover">
+                <img src="main_img7.png" class="default">
+                <div class="text">
+                    <h2>Ледовая арена</h2>
+                    <p>ноябрь 2020</p>
+                </div>
+            </div>
+            <svg>
+                <line x1="100" y1="0" x2="2400" y2="0" stroke-width="4" stroke="#F0C2E8">
+            </svg>
+            <div class="div4_3" onclick="boost()">
+                <img src="main_img12.png" class="hover">
+                <img src="main_img8.png" class="default">
+                <div class="text">
+                    <h2>Hippy city</h2>
+                    <p>май 2021</p>
+                </div>
+            </div>
+            <svg>
+                <line x1="100" y1="0" x2="2400" y2="0" stroke-width="4" stroke="#F0C2E8">
+            </svg>
+            <div class="div4_4" onclick="gallery()">
+                <img src="main_img13.png" class="hover">
+                <img src="main_img9.png" class="default">
+                <div class="text">
+                    <h2>Фотоработы</h2>
+                    <p><img src="infinity.png"></p>
+                </div>
+            </div>
+            <svg>
+                <line x1="100" y1="0" x2="2400" y2="0" stroke-width="4" stroke="#F0C2E8">
+            </svg>
+        </div>
+        
+        <div class="div5" id="contacts">
+            <h2>Хочешь вместе поработать?</h2>
+            <h2>Тогда свяжись со мной&#10084 </h2>
+            <div class="div5_1">
+                <div class="div5_1_1">
+                    <p><b>Телефон</b></p>
+                    <p><b>Почта</b></p>
+                    <p><b>Behance</b></p>
+                    <p><b>Telegram</b></p>
+                </div>
+                <div class="div5_1_2">
+                    <p>+7 (911) 529 - 61 - 27</p>
+                    <p>steshayurzina@yandex.ru</p>
+                    <a href = 'https://www.behance.net/stefania'>behance.net/stefania</a>
+                    <p>@your_little_unicorn</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer">
+                <div class="footer_1">
+                    <div class="footer_1_1">
+                    <a href="#hi">Приветствие</a>
+                    <a href="#about">Обо мне</a>
+                    <a href="#projects">Проекты</a>
+                    <a href="#contacts">Контакты</a>
+                    </div>
+                    <a href="#up">Вверх</a>
+                </div>
+                <p class="name">Юрзина Стефания, 2021</p>
+            </div>
+        </footer>
+        <script src="main_script.js"></script>
+    </body>
+</html>
